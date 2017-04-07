@@ -1,0 +1,17 @@
+---
+title: "Global Temperatures Project"
+author: "Sergio L. B. Dalge"
+date: "April 5, 2017"
+output: html_document
+---
+
+## Global Temperatures
+
+This app shows a graphic for each country with the mean, maximum and minimum annual temperature. This dataset covers the period from 1900 until 2013, for the most of the countries.
+
+To visualize the graph from a specific country you can select it from a dropdown list on the left. Then you can choose the type of temperature information you want to know ( minimum, maximum or average) by selecting it from a radio button below the dropdown list.
+
+In the **Show Graphic** tab you will see the plot, for the choosed country, showing the annual temperatures. Also a red line from the regression line ``lm(mean ~ year)`` (or ``lm(max ~ year)``, or ``lm(min ~ year)`` ) for these selected data is showed. The regression line values for the Intercept and the Slope are showed in the legend ( bottom right ).
+
+The original data came from **Kagle** (<https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data>).
+
